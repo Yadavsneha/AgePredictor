@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Date of birth </title>
+  <link rel="stylesheet" href="dob.css" />
+</head>
+
+<body>
+  <div class="card">
+    <header>
+      <h1>want to know my AGE</h1>
+    </header>
+    <div>
+      <label>My Date of Birth</label>
+      <input id="inputDob" type="date" value="2002-01-27" />
+    </div>
+    <br />
+    <div>
+      <label>Current Date</label>
+      <input id="cdate" type="date" value="" />
+    </div>
+    <br />
+    <button type="button" onclick="getDOB()">
+      Calculate</button>
+    <br />
+    <div id="currentAge"></div>
+    <script src="dob.js"></script>
+  </div>
+</body>
+
+</html>
